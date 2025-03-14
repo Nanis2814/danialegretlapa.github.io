@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Audios en HTML</title>
+    <link rel="stylesheet" href="../CSS/style.css" type="text/css">
+    <link href="../IMAGENES/hogar.png" rel="icon" type="images/x-icon">
+    
+    <style type="text/css">
+        audio, iframe{
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+        section {
+            width: 40%;
+            display:inline-block;
+            margin: 20px;
+            height: 400px;
+            overflow-y: auto;    
+        }
+        main{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>AUDIOS</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="FORMATOS.html">Formatos</a></li>
+        <li><a href="LISTADOS.html">Listas</a></li>
+        <li><a href="ENLACES.html">Enlaces</a></li>
+        <li><a href="TABLAS.html">Tablas</a></li>
+        <li><a href="IMAGENES.html">Imágenes</a></li>
+        <li><a href="AUDIOS.html">Audios</a></li>
+        <li><a href="VIDEOS.html">Videos</a></li>
+        <li><a href="FORMULARIOS.html">Formularios</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section>
+        <h2>Audio</h2>
+        <audio controls>
+            <source src="../AUDIOS/Animalito_señor.mp3" type="audio/mp3">
+            Tu navegador no soporta el audio.
+        </audio>
+    </section>
+
+    <section>
+        <h2>Otro Audio</h2>
+        <audio controls>
+            <source src="../AUDIOS/Bluey_El_Cartel.mp3" type="audio/mp3">
+            Tu navegador no soporta el audio.
+        </audio>
+    </section>
+
+    <section>
+        <h2>Audio Silenciado</h2>
+        <audio controls autoplay muted>
+            <source src="../AUDIOS/Lollipop_Yum_Yum_Yum.mp3" type="audio/mp3">
+            Tu navegador no soporta el audio.
+        </audio>
+    </section>
+
+    <section>
+        <h2>Audio con Reproducción Cíclica</h2>
+        <audio controls loop>
+            <source src="../AUDIOS/Flight_Is_Aight.mp3" type="audio/mp3">
+            Tu navegador no soporta el audio.
+        </audio>
+    </section>
+
+    <section>
+        <h2>Audio con Spotify</h2>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5bF4MESYAJUpUmrGuhyGON?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </section>
+
+    <section>
+        <h2>Playlist en Spotify</h2>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/4ke6cauk7sHuydZCrkgD7s?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </section>
+</main>
+
+<footer>
+    <h6>Elaborado por Daniela Alegre Tlapa</h6>
+</footer>
+</body>
+</html>
+

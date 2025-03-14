@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Videos en HTML</title>
+    <link rel="stylesheet" href="../CSS/style.css" type="text/css">
+    <link href="../IMAGENES/hogar.png" rel="icon" type="images/x-icon">
+    
+    <style type="text/css">
+        video, iframe {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+        section {
+            width: 40%;
+            display: inline-block;
+            margin: 20px;
+            height: 400px;
+            overflow-y: auto;    
+        }
+        main {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>VIDEOS</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="FORMATOS.html">Formatos</a></li>
+        <li><a href="LISTADOS.html">Listas</a></li>
+        <li><a href="ENLACES.html">Enlaces</a></li>
+        <li><a href="TABLAS.html">Tablas</a></li>
+        <li><a href="IMAGENES.html">Imágenes</a></li>
+        <li><a href="AUDIOS.html">Audios</a></li>
+        <li><a href="VIDEOS.html">Videos</a></li>
+        <li><a href="FORMULARIOS.html">Formularios</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section>
+        <h2>Video Local</h2>
+        <p>Disfruta de este video local.</p>
+        <video controls width="100%">
+            <source src="../VIDEOS/videoplayback (1).mp4" type="video/mp4">
+            Tu navegador no soporta el video.
+        </video>
+    </section>
+
+    <section>
+        <h2>Video Autoplay Silenciado</h2>
+        <p>Este video se reproduce automáticamente y en silencio.</p>
+        <video controls autoplay muted width="100%">
+            <source src="../VIDEOS/Bingo Theme Song! _ Bluey.mp4" type="video/mp4">
+            Tu navegador no soporta el video.
+        </video>
+    </section>
+
+    <section>
+        <h2>Video en Bucle</h2>
+        <p>Este video se reproduce en bucle.</p>
+        <video controls loop width="100%">
+            <source src="../VIDEOS/videoplayback.mp4" type="video/mp4">
+            Tu navegador no soporta el video.
+        </video>
+    </section>
+
+    <section>
+        <h2>Video desde YouTube</h2>
+        <p>LVideo para ver en youtube.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/AG5HnHE__5Y?start=12" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <section>
+        <h2>Video de Vimeo</h2>
+        <p>Este es un video alojado en Vimeo.</p>
+        <iframe src="https://player.vimeo.com/video/76979871" width="100%" height="315" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </section>
+</main>
+
+<footer>
+    <h6>Elaborado por Daniela Alegre Tlapa</h6>
+</footer>
+</body>
+</html>
